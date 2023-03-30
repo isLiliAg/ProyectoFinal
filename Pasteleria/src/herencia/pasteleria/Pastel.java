@@ -7,11 +7,12 @@ public class Pastel {
      private double Precio;
 
      public Pastel(String sabor, double precio) {
-          this.Sabor = sabor;
+
           this.Precio = precio;
      }
 
-     public Pastel(String vainilla) {
+     public Pastel(String sabor) {
+          this.Sabor= sabor;
      }
 
      public String Pastel(String sabor){

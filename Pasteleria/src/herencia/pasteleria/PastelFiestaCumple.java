@@ -13,11 +13,13 @@ private double Velas;
 
     public PastelFiestaCumple() {
 
+        this.cumpleSabor("chocolate");
 
     }
 
-    public PastelFiestaCumple(String chocolate) {
+    private void cumpleSabor(String chocolate) {
     }
+
 
     public double getVelas() {
         return Velas;
@@ -28,9 +30,6 @@ private double Velas;
     }
 
 
-    public void cumpleSabor(String sabor){
-        System.out.println(sabor);
-    }
 
 
 
