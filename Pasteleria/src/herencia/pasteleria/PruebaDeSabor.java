@@ -4,7 +4,7 @@ public class PruebaDeSabor {
 
     public static void main(String[] args){
         Pastel pastel = new Pastel();
-        pastel.setPrecio(400);
+        pastel.setPrecio((double) 400.0);
         System.out.println("Sabor de Pastel Basico: " + pastel.getSabor());
         System.out.println("Costo del Pastel " + "$" + pastel.getPrecio());
 
